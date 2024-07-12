@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Horizon</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .logo {
+            height: 150px;
+            border-radius: 100%;
+        }
+        
+        .banner {
+            background-color: #555;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 3em;
+        }
+        
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        
+        .news-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        
+        .news-article {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex: 1 1 45%; /* Makes the articles take up 45% of the width */
+            max-width: 45%;
+            box-sizing: border-box;
+        }
+        
+        .news-article img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        .news-article h2 {
+            margin-top: 0;
+            font-size: 2em;
+        }
+        
+        .vertical-line {
+            border-left: 1px solid #ddd;
+            height: auto;
+            margin: 0 20px;
+        }
+        
+        main {
+            padding-bottom: 60px; /* Space for the footer */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://as2.ftcdn.net/v2/jpg/01/71/24/89/1000_F_171248904_2wwkXo63o4WUa1jiz6zbzL7zHWOzacqT.jpg" alt="Logo" class="logo">
+        <h1>The Horizon</h1>
+        <img src="https://img.freepik.com/free-photo/newspaper-background-concept_23-2149501598.jpg?w=996&t=st=1720776691~exp=1720777291~hmac=5a226dcfc6aa130abfd0b3cda7cac645e5ce784df8308b0f1a77affcfd45ce04" alt="Banner" height="250px" width="2000px">
+    </header>
+    <main>
+        <div class="news-container">
+            <div class="news-article">
+                <h2>Trendy Tech</h2>
+                <img src="https://bl-i.thgim.com/public/news/s41stq/article68396216.ece/alternates/LANDSCAPE_1200/Pic%203.jpg" alt="Trending News Image 1">
+                <p>LHyderabad-based Marut Drones, a drone manufacturer and Drone as a Service provider, has forayed into Tamil Nadu with plans to create 500 drone entrepreneurs by the end of 2024. By using drones for spraying fertilisers, farmers can potentially earn up to ₹50,000 to ₹60,000 per month.Marut Drones is also collaborating with Annamalai University to provide drone training. Farmers with bank loans for Marut agri drones can also be entitled to a six per cent interest subsidy under the Agriculture Infrastructure Fund, says a release.</p>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="news-article">
+                <h2>Business Boom</h2>
+                <img src="https://bl-i.thgim.com/public/incoming/38g3o2/article68395611.ece/alternates/LANDSCAPE_960/2024-07-11T101630Z_251220447_RC2NF5AMJ7BH_RTRMADP_3_TCS-RESULTS.JPG" alt="Trending News Image 2">
+                <p>Tata Consultancy Services/ TCS Share Price Updates for July 12, 2024: Tata Consultancy Services stock surged close to 7 per cent on Friday’s trade. The company kicked off the first quarter of FY25 with an 8.8% year-on-year growth in profits to ₹12,105 crore. During the same time last year, the IT behemoth reported a profit of ₹11,120 crore.TCS reported a largely inline quarter with revenue and EPS marginally above consensus (about 0.8 per cent), while EBITDA was 1.5 per cent above. Most verticals and geographies saw sequential growth too. Given this, one could ask the question ‘Have the business fundamentals in the IT sector bottomed out?’</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Contact us: the_horizon247@gmail.com</p>
+    </footer>
+</body>
+</html>
